@@ -1,0 +1,53 @@
+{
+  "name": "grunt-filerev-only-map",
+  "description": "only map with md5",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Galen-Yip/grunt-filerev-only-map",
+  "author": {
+    "name": "Galen-Yip",
+    "email": "275497985@qq.com",
+    "url": "galen-yip.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Galen-Yip/grunt-filerev-only-map.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Galen-Yip/grunt-filerev-only-map/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/Galen-Yip/grunt-filerev-only-map/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "convert-source-map": "^1.0.0",
+    "each-async": "^0.1.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-jscs": "^1.5.0",
+    "grunt-simple-mocha": "^0.4.0"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "map",
+    "md5",
+    "rev"
+  ]
+}
